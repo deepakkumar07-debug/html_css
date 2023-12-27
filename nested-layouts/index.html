@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *,*::before,*::after {
+            box-sizing: border-box;
+        }
+        .container {
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+        }   
+        .thumbnail {
+            width: 300px;
+            /* removes extra margin */
+            display: block; 
+        }
+        .video-preview {
+            margin-bottom: 5px;
+        }
+        .channel-picture {
+            width: 100%;
+        }
+        .channel-picture-wrapper {
+            display: inline-block;
+            width: 30px;
+            vertical-align: top;
+        }
+        .video-info {
+            display: inline-block;
+            width: 280px;
+        }
+        .channel-name-container, .video-views-container {
+            margin-top: 3px;
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+        }
+        .video-title-container {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="video-preview">
+                <img class="thumbnail" src="./images/thumbnails/thumbnail-1.webp" alt="" srcset="">
+            </div>
+            <div class="video-detail">
+                <div class="channel-picture-wrapper">
+                    <img class="channel-picture"
+                         src="./images/thumbnails/IBM_thumb.jpg">
+                </div>
+                <div class="video-info">
+                    <div class="video-title-container">
+                        The 7 types of AI- And Why we Talk (mostly) About 3 of them
+                    </div>
+                    <div class="channel-name-container">
+                        IBM Technology
+                    </div>
+                    <div class="video-views-container">
+                        93k view &#183; 1 month ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="container">
+            <div class="video-preview">
+                <img class="thumbnail" src="./images/thumbnails/thumbnail-1.webp" alt="" srcset="">
+            </div>
+            <div class="video-detail">
+                <div class="channel-picture-wrapper">
+                    <img class="channel-picture"
+                         src="./images/thumbnails/IBM_thumb.jpg">
+                </div>
+                <div class="video-info">
+                    <div class="video-title-container">
+                        The 7 types of AI- And Why we Talk (mostly) About 3 of them
+                    </div>
+                    <div class="channel-name-container">
+                        IBM Technology
+                    </div>
+                    <div class="video-views-container">
+                        93k view * 1 month ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
